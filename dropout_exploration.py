@@ -35,7 +35,7 @@ def dynamic_probability (topk_mat, p_min=0.001):
 
     return prob
 
-def dropout_select (population_size, weights, baseline_accuracy, pruning_rate, modification_type, k, p_min):
+def dropout_select (weights, baseline_accuracy, population_size, pruning_rate, modification_type, k, p_min):
     MODIFICATION_TYPES = ["Prune", "Half", "SignFlip", "ShiftToZero"]
     assert modification_type in MODIFICATION_TYPES, "Selected modification type not found."
     
