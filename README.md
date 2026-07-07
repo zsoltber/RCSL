@@ -1,4 +1,4 @@
-# rcsl-summer
+# RCSL Internship - Evolutionary fine-tuning on the edge and mask potency evaluation
 
 ### Packing numpy to dat files helpers
 
