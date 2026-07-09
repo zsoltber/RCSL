@@ -38,6 +38,21 @@ if three != 3:
 > [!TIP]
 > what does this look like
 
+---
+
+- [x] is this a checkbox
+- [ ] is this a checkbox
+
+
+
+<details>
+<summary>Click to show more details</summary>
+
+Additional information goes here.
+
+</details>
+
+
 `topk_gft.py`
 `topk_gft_lowmem.py`
 `dropout_exploration.py`
