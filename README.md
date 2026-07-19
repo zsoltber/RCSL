@@ -32,6 +32,10 @@ The resulting `integer_layers` is a list of `np.array` objects. They can be save
 
 Add the `.npy` to `.dat` weight layer packing util file `packing.py` and the Jupyter Notebook `evolutionary.ipynb` to the output directory on the board.
 
+### 3. Evolutionary Tuning Notebook
+
+The notebook uses the [Nevergrad](https://github.com/facebookresearch/nevergrad) optimisation library from Facebook Research, which contains a number of gradient-free evolutionary and genetic methods for continuous and discrete optimisation.
+
 ## Important Files
 
 ### `packing.py` or `npy_to_finn_dat.py`
